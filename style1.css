@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 70px;
+}
+.main-inner{
+  width: 350px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 4px 5px 5px 9px;
+  border-radius: 10px;
+  transition: all .3s;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: inherit;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+.list{
+    opacity: 0.7;
+}
+
+.text{
+    font-size: 3rem;
+}
+
+.addlist{
+    margin-left: 24%;
+    font-size: 2.4rem;
+}
+.addlist a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    color: red;
+}
+
+/* .maincard{
+    margin: 5% 25% 0% 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.maincard a{
+    text-decoration: none;
+    color: black;
+}
+
+.maincard hr{
+    width: 89.3%;
+    color: aliceblue;
+}
+.card{
+    border: 1px solid red;
+    box-shadow: 6px 8px 5px rgba(190, 190, 190, 0.795);
+    border-radius: 7px;
+    height: 280px;
+    width: 185px;
+    padding: 1%;
+    margin-left:3.8%;
+}
+*/ .cardtext{
+    font-size: 1.6rem;
+    padding: 15px 18px 5px 18px;
+    opacity: 0.7;
+} /*
+
+hr{
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.completedtask{
+    margin-top: 30px;
+    color: red;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.checkbox{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+} */
+    .Heading{
+        display: flex;
+        justify-content: initial;
+        margin-top: 5%;
+        margin-left: 2%;
+        height: 80px;
+    }
+    .text{
+        font-size: 2.5rem;
+        width: auto;
+        margin-left: 2%;
+        margin-right: 25%;
+    }
+    .addlist{
+        margin-left: 0px;
+        visibility: hidden;
+    }
+    .List{
+        width: 50px;
+    }
+    #logo{
+        margin: 0%;
+        visibility: visible;
+    }
+    .completedtask{
+        visibility: hidden;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .checkbox{
+        visibility: hidden;
+    }
+    .maincard{
+        margin: 5% 5% 0% 2%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .maincard a{
+        text-decoration: none;
+        color: black;
+    }
+    .card{
+        border: 1px solid rgb(226, 122, 122);
+        box-shadow: 3px 4px 3px rgba(209, 207, 207, 0.795);
+        border-radius: 7px;
+        height: 60px;
+        width: 285px;
+        padding: 1%;
+
+        margin-bottom:8.8%;
+    }
+
